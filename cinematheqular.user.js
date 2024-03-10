@@ -13,7 +13,7 @@
 
     // Paste your OMDB API key here
     const OMDB_API_KEY = '';
-    
+
     const RATINGS_CLASS_NAME = 'cinematheqular-ratings';
     const PLOT_CLASS_NAME = 'cinematheqular-plot';
 
