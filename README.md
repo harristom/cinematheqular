@@ -14,7 +14,7 @@ You can use the script with the [Tampermonkey](https://www.tampermonkey.net/) br
 
 1. Get an API key from [OMDB](https://www.omdbapi.com/apikey.aspx)
 2. Install Tampermonkey in your browser if you haven't done so already
-3. Click [install](./cinematheqular.user.js)
+3. Click [install](./cinematheqular.user.js?raw=1)
 4. Paste the API key at the top of the script and save
 
 ## Caveats
