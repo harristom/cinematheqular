@@ -4,9 +4,10 @@
 
 ## Features
 
-* Adds short plot summaries to the programme page
+* Adds short plot summaries to the programme page (English only)
 * Adds Rotten Tomatoes ratings to the programme
 * Removes the language "badges" from the programme (they are never correct)
+* Adds rating and English plot summary to the event's detail page
 
 ## Install
 
