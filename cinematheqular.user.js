@@ -23,7 +23,7 @@
     function cleanTitle(title) {
         // Remove ending brackets from the title (often used to indicate the showing is part of a season)
         title = title.trim();
-        return title.replaceAll(/ \(.*$/gi, '');
+        return encodeURIComponent(title.replaceAll(/ \(.*$/gi, ''));
     }
 
     function agendaPage(omdbApiKey) {
