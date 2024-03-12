@@ -13,10 +13,10 @@
 
 You can use the script with the [Tampermonkey](https://www.tampermonkey.net/) browser extension:
 
-1. Get an API key from [OMDB](https://www.omdbapi.com/apikey.aspx)
+1. Get an API key from [OMDB](https://www.omdbapi.com/apikey.aspx) and activate it
 2. Install Tampermonkey in your browser if you haven't done so already
 3. Click [install](./cinematheqular.user.js?raw=1)
-4. Go to the script in your Tampermonkey dashboard, paste the API key at the top and save
+4. Go to the [*Cinémathèque* website](https://www.vdl.lu/en/visiting/art-and-culture/cultural-institutions/film/cinematheque) and add your API key when prompted (check the bottom of the screen)
 
 ## Caveats
 
