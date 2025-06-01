@@ -181,7 +181,7 @@
                 if (rtRating) detailsEl.querySelector(`.${DETAILS_CLASS_NAME}__ratings`).textContent = formatRtRating(rtRating);
                 detailsEl.querySelector(`.${DETAILS_CLASS_NAME}__plot`).textContent = result.Plot;
                 detailsEl.querySelector(`.${DETAILS_CLASS_NAME}__director`).textContent = result.Director;
-                document.querySelector('.event-full .node-content .container')?.prepend(detailsEl);
+                document.querySelector('.event-full .node-content .container .content')?.prepend(detailsEl);
             })
             .catch(error => console.log('error', error));
     }
@@ -276,7 +276,7 @@
             // Matches the URL pattern for an event page
             /^https:\/\/www\.vdl\.lu\/.*?\/(?:kalender|agenda|whats-on)\//.test(location.href) &&
             // Event location is Cinematheque
-            document.querySelector('.media-place-content')?.textContent.trim().startsWith('Cinémathèque');
+            document.querySelector('.infos-inner .place strong')?.textContent.trim().startsWith('Cinémathèque');
     }
 
     function isMainPage() {
