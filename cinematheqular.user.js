@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Cinematheqular
 // @namespace    https://github.com/harristom
-// @version      2024-03-12
+// @version      2025-06-01
 // @description  Adds movie plots and ratings to the Ville de Luxembourg Cinematheque website
 // @author       https://github.com/harristom
 // @match        https://www.vdl.lu/*
